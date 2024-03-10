@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Gallery</title>
+   <link rel="icon" href="img/fotor-20240310123759.png" type="image/icon type">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="gallary.css">
+   <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+   <!-- header start -->
+   <header>
+      <nav>
+         <div class="logo">
+            <a href="index.html"><img src="img/profile-pic.jpg" alt=""></a>
+         </div>
+         <div class="panel">
+            <li><a href="index.html" class="home">home</a></li>
+            <li><a href="gallery.html" class="gallery" id="active">gallery</a></li>
+            <li><a href="about.html" class="about">about</a></li>
+            <li><a href="resume.html" class="socials">resume</a></li>
+            <li><a href="feedback.html" class="feedback">feedback</a></li>
+         </div>
+      </nav>
+      <svg display="none">
+         <symbol id="light" viewBox="0 0 24 24">
+            <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(0,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(45,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(90,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(135,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(180,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(225,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(270,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(315,12,12)" />
+            </g>
+            <circle fill="currentColor" cx="12" cy="12" r="5" />
+         </symbol>
+         <symbol id="dark" viewBox="0 0 24 24">
+            <path fill="currentColor"
+               d="M15.1,14.9c-3-0.5-5.5-3-6-6C8.8,7.1,9.1,5.4,9.9,4c0.4-0.8-0.4-1.7-1.2-1.4C4.6,4,1.8,7.9,2,12.5c0.2,5.1,4.4,9.3,9.5,9.5c4.5,0.2,8.5-2.6,9.9-6.6c0.3-0.8-0.6-1.7-1.4-1.2C18.6,14.9,16.9,15.2,15.1,14.9z" />
+         </symbol>
+      </svg>
+      <label class="switch">
+         <input class="switch__input" type="checkbox" role="switch" name="dark" data-theme-toggle />
+         <span class="switch__inner"></span>
+         <span class="switch__sr">Dark Mode</span>
+      </label>
+   </header>
+
+   <div class="container">
+      <h1 class="heading">Type to search</h1>
+
+      <!-- search start -->
+      <form action="" class="nosubmit">
+         <input type="search"  placeholder="eg.- animation,product" id="search-box" class="nosubmit" list="suggestions">
+         <!-- <div id="suggestions-dropdown"></div> -->
+         <datalist id="suggestions">
+            <option value="wallpaper">
+            <option value="model">
+            <option value="product">
+            <option value="car">
+            </option>
+            <!-- Add more suggestions as needed -->
+         </datalist>
+      </form>
+<!-- search end -->
+
+      <p class="note-red"><span>Note:</span>Click to view in full screen</p>
+
+      <!-- image container start -->
+      <div class="image-container">
+         <div class="image" data-title="lowpoly">
+            <img src="img/CAFE-SUB-V2.png" alt="">
+            <h3>cafe</h3>
+         </div>
+         
+         <div class="image" data-title="model">
+            <img src="img/s23ultra-v2.png" alt="" controls>
+            <h3>s23 ultra</h3>
+         </div>
+         <div class="image" data-title="model">
+            <img src="img/RABBIT.png" alt="">
+            <h3>rabbit r1</h3>
+         </div>
+         <div class="image" data-title="model">
+            <img src="img/MICROPHONEV1.png" alt="">
+            <h3>microphone</h3>
+         </div>
+         <div class="image" data-title="model">
+            <img src="img/BOAT-HEADPHONE.png" alt="">
+            <h3>boat headphone</h3>
+         </div>
+         <div class="image" data-title="model">
+            <img src="img/speakerV4.png" alt="">
+            <h3>speaker</h3>
+         </div>
+         <div class="image" data-title="model">
+            <img src="img/white-lamp88.png" alt="">
+            <h3> LED lamp</h3>
+         </div>
+         <div class="image" data-title="model">
+            <img src="img/illusion-cosmetic.png" alt="">
+            <h3>sampoo bottel</h3>
+         </div>
+         <div class="image" data-title="cosmetic">
+            <img src="img/serum-with-enviorment.png" alt="">
+            <h3>serum</h3>
+         </div>
+         
+         <div class="image" data-title="environment">
+            <img src="img/notebook-room.png" alt="">
+            <h3>desk</h3>
+         </div>
+         <div class="image" data-title="car">
+            <img src="img/MUSTANG-WITH-NAME-BLACK.png" alt="">
+            <h3>mustang gt</h3>
+         
+         </div>
+         <div class="image" data-title="interesting">
+            <img src="img/THOR-HAMMER.png" alt="">
+            <h3>low-poly mjolnir</h3>
+         </div>
+         <div class="image" data-title="model">
+            <img src="img/cctv-camera.png" alt="">
+            <h3>CCTV </h3>
+         </div>
+         <div class="image" data-title="low-poly">
+            <img src="img/capsule.png" alt="">
+            <h3>low-poly capsule</h3>
+         </div>
+         
+         <div class="image" data-title="wallpaper">
+            <img src="img/CUBIC-GEO.png" alt="">
+            <h3>geo-wallpaper</h3>
+         </div>
+         
+         <div class="image" data-title="wallpaper">
+            <img src="img/geometry-wallpaper.png" alt="">
+            <h3>desk</h3>
+         </div>
+         
+         <div class="image" data-title="wallpaper">
+            <img src="img/A1.png" alt="">
+            <h3>geo-wallpaper</h3>
+         </div>
+         
+          <div class="image" data-title="animation">
+            <video src="img/boat-video.mp4" controls controlsList="nodownload"  muted></video>
+            <h3>boat headphone</h3>
+         </div>
+         <div class="image" data-title="animation">
+            <video src="img/cosmetic-illusion-video.mp4" controls controlsList="nodownload" muted></video>
+            <h3>boat headphone</h3>
+         </div>
+      </div>
+
+   </div>
+   <!-- image container end -->
+   <footer>
+      <p>
+         ©2024| jitendra singh | All rights reserved |
+      </p>
+   </footer>
+   <script src="script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"></script>
+
+   <script>$('img').addClass('img-enlargable').click(function () {
+         var src = $(this).attr('src');
+         $('<div>').css({
+            background: 'RGBA(0,0,0,.5) url(' + src + ') no-repeat center',
+            backgroundSize: 'contain',
+            width: '100%', height: '100%',
+            position: 'fixed',
+            zIndex: '10000',
+            top: '0', left: '0',
+            cursor: 'zoom-out'
+         }).click(function () {
+            $(this).remove();
+         }).appendTo('body');
+      });</script>
+<script src="https://kit.fontawesome.com/e5310a905d.js" crossorigin="anonymous"></script>
+  
+   <script>
+    let searchBox = document.querySelector('#search-box');
+let images = document.querySelectorAll('.container .image-container .image');
+
+const handleInput = () => {
+    let value = searchBox.value.toLowerCase();
+    let anyMatch = false; // Flag to check if any item matches the search
+
+    images.forEach(filter => {
+        let title = filter.getAttribute('data-title').toLowerCase();
+        if (title.includes(value) || value === '') {
+            filter.style.display = 'block';
+            anyMatch = true;
+        } else {
+            filter.style.display = 'none';
+        }
+    });
+
+    // If there are no matches, display all items
+    if (!anyMatch && value !== '') {
+        images.forEach(filter => {
+            filter.style.display = 'block';
+        });
+    }
+};
+
+searchBox.addEventListener('input', handleInput);
+   </script>
+
+</body>
+
+</html>

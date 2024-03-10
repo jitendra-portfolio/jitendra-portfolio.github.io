@@ -1,0 +1,106 @@
+[data-theme="light"] {
+ 
+   --color-bg:  #000000;
+   --color-fg: #ffffff;
+   --color-fo:   #000000;
+   --color-ho: #000000;
+   --ff-bgcolor: #fff;
+ }
+ 
+ [data-theme="dark"] {
+   --color-bg: #ffffff;
+   --color-fg: #000000;
+   --color-fo: #c3c1c18a;
+   --color-ho: #ffffff;
+   --ff-bgcolor: #000000;
+ }
+ 
+
+body{
+   /* background-color: black !important; */
+   z-index: 1;
+}
+.ff-form label{
+   margin-top: 1rem;
+   color: var(--color-bg) !important;
+}
+#ff-compose{
+   margin-top: 5rem !important;
+   z-index: 100;
+   background-color: var(--color-fg);
+}
+h3{
+   color: var(--color-bg) !important;
+}
+.ff-form .mdViewer p{
+color: var(--color-bg) !important;
+}
+form{
+   border: 2px solid blue !important;
+   background-color: var(--color-bg) !important;
+   margin: auto !important;
+   width: 22rem;
+}
+.ff-form textarea{
+   border: 1px solid var(--color-bg) !important;
+}
+.ff-widget-control{
+   border: 1px solid var(--color-bg) !important;
+}
+.ff-section a{
+   visibility: hidden;
+}
+button{
+border: 1px solid var(--color-bg) !important;
+box-shadow: none !important;
+}
+.ff-widget-control,.rest-form-control{
+   color: var(--color-bg) !important;
+}
+.ff-form label {
+   display: flex;
+   gap: 0.4rem;
+}
+.ff-button-bar span {
+margin-top: 1.2rem;}
+/* .ff-section{
+   visibility: hidden;
+} */
+.ff-form input[type="text"] :active{
+border: 1px solid red !important;
+}
+@media (max-width:400px) {
+   form{
+      width: 20rem;
+      height: 45rem;
+   }
+   .ff-form .mdViewer p span{
+      font-size: x-small;
+    line-height: 1rem;
+      }
+   
+         /* display: flex;
+         justify-content: center;
+         position: relative !important;
+         /* left: 6rem !important; */
+         /* .ff-description{
+            visibility: hidden;
+         } */
+
+         
+}
+.ff-success{
+   display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.ff-description button{
+visibility: hidden !important;
+}
+.ff-public-mode{
+   background-color: black !important;
+}
+.ff-form{
+   background-color: var(--color-fg) !important;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>About</title>
+   <link rel="icon" href="img/fotor-20240310123759.png" type="image/icon type">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+   <header>
+      <nav>
+         <div class="logo">
+            <a href="index.html"><img src="img/profile-pic.jpg" alt=""></a>
+         </div>
+         <div class="panel">
+            <li><a href="index.html" class="home">home</a></li>
+            <li><a href="gallery.html" class="gallery">gallery</a></li>
+            <li><a href="about.html" class="about" id="active">about</a></li>
+            <li><a href="resume.html" class="socials">resume</a></li>
+            <li><a href="feedback.html" class="feedback">feedback</a></li>
+         </div>
+      </nav>
+      <svg display="none">
+         <symbol id="light" viewBox="0 0 24 24" >
+            <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(0,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(45,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(90,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(135,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(180,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(225,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(270,12,12)" />
+               <line x1="12" y1="17" x2="12" y2="20" transform="rotate(315,12,12)" />
+            </g>
+            <circle fill="currentColor" cx="12" cy="12" r="5" />
+         </symbol>
+         <symbol id="dark" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M15.1,14.9c-3-0.5-5.5-3-6-6C8.8,7.1,9.1,5.4,9.9,4c0.4-0.8-0.4-1.7-1.2-1.4C4.6,4,1.8,7.9,2,12.5c0.2,5.1,4.4,9.3,9.5,9.5c4.5,0.2,8.5-2.6,9.9-6.6c0.3-0.8-0.6-1.7-1.4-1.2C18.6,14.9,16.9,15.2,15.1,14.9z" />
+         </symbol>
+      </svg>
+      <label class="switch" >
+         <input class="switch__input" type="checkbox" role="switch" name="dark"  data-theme-toggle/>
+         <span class="switch__inner"></span>
+         <span class="switch__sr">Dark Mode</span>
+      </label>
+   </header>
+
+   <div class="about-title">
+      <h2>about me</h2>
+   </div>
+
+   <!-- about start -->
+   <div class="container-about">
+      <div class="img-about">
+         <img src="img/profile-pic.jpg" alt="">
+      </div>
+      <div class="about-1">
+         <h2>I'm jitendra singh </h2>
+         <p>A devoted B.Tech student at Engineering College Bikaner, immersed in the convergence of technology and artistic expression within the expansive realm of computer science. My professional journey is shaped by an unwavering commitment to 3D artistry, where I intricately weave realism into every project, with a particular focus on detailed product modeling. </p>
+      </div>
+      <div class="about-2">
+         <h2 class="key-skills" style="margin-left: 1rem;
+         ">Key Skills →</h2>
+         <h3 class="3d-artistry" style="margin-left: 2rem;
+         ">→3D Artistry</h3>
+         <ul>
+         <li>Proficient in advanced 3D modeling techniques using Blender, breathing life into concepts with precision.</li>
+         <li>Meticulously detail-oriented, specializing in crafting realistic product models for enhanced authenticity and visual appeal.</li>
+      </ul>
+            <h3 class="Programming Proficiency" style="margin-left: 2rem;
+         ">→Programming Proficiency</h3>
+         <ul>
+            <li>Excel in seamlessly blending creativity and functionality for web development using HTML, CSS, and JavaScript.</li>
+         <li>Demonstrate mastery in C programming, showcasing efficiency and precision in software development. Simultaneously, advancing skills in data structures and algorithms with C++, reflecting a commitment to creating robust and optimized solutions. </li>
+         </ul>
+         <h2 class="Artistic-Philosophy">Artistic Philosophy→</h2>
+         <p class="Artistic-Philosophy-p">My artistic approach is rooted in a passion for capturing the essence of reality in the digital realm. Whether it's the intricate details of a product or the seamless functionality of a website, I strive for a harmonious blend of art and technology.</p>
+         <h2 class="Aspirations">Aspirations→</h2>
+         <p>
+            With an eye for detail and a love for pushing creative boundaries, I am on a quest to redefine the possibilities in 3D art and programming. My ultimate goal is to contribute to cutting-edge projects in game development and software innovation, where my skills can make a lasting impact.
+            <span><br></span>
+            Join me on this journey where every line of code and every polygon in a 3D model tells a story. Explore a portfolio that not only showcases technical prowess but also reflects a deep passion for the artistry embedded in the digital landscape.
+         </p>
+         <span><br></span>
+      </div>
+      <div class="extra"></div>
+
+   </div>
+   <!-- about end -->
+   <footer>
+      <p>
+         ©2024| jitendra singh | All rights reserved |
+      </p>
+   </footer>
+   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+</body>
+
+</html>

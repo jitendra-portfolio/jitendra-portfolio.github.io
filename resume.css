@@ -1,0 +1,32 @@
+[data-theme="light"] {
+ 
+  --color-bg:  #000000;
+  --color-fg: #ffffff;
+}
+
+[data-theme="dark"] {
+  --color-bg: #ffffff;
+  --color-fg: #000000;
+}
+
+body {
+  margin: 0rem;
+  padding: 0rem;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  height: auto;
+}
+.pdf {
+  display: flex;
+  justify-content: center;
+  /* width: 50rem; */
+}
+iframe {
+  border: 0rem;
+}
+iframe::-webkit-scrollbar {
+  width: 0rem;
+}
+::-webkit-scrollbar {
+  width: 0rem;
+}
